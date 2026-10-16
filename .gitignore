@@ -1,0 +1,19 @@
+﻿.gradle/
+.gradle_tmp/
+.gradle_tmp2/
+.gradle_tmp3/
+**/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+*.log
+logcat.txt
+.di.txt
+.photo-work/
+
+# Local Gradle caches and temporary directories
+.gradle-user-home/
+.android-user-home/
+gradle_tmp/
+gradle_tmp*/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light navigation-bar icons only exist from API 27; the runtime edge-to-edge call in
+         MainActivity covers older devices. -->
+    <style name="Theme.AppScout" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/paddock_asphalt</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

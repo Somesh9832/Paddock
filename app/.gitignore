@@ -1,0 +1,30 @@
+/build
+
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+
+# Gradle and build outputs
+.gradle/
+.gradle_tmp/
+.gradle_tmp2/
+.gradle_tmp3/
+**/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/
+
+# Logs
+*.log
+logcat.txt
+
+# Temporary files
+*.tmp

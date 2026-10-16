@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Driver portraits are looked up by name at runtime (see PaddockImages.kt), so the resource
+  shrinker cannot see the reference. Keep the family explicitly so bundled photography is never
+  stripped from a release build.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/paddock_driver_*" />
